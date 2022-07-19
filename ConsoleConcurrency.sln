@@ -5,7 +5,7 @@ VisualStudioVersion = 17.2.32526.322
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ConsoleConcurrency", "ConsoleConcurrency.vcxproj", "{45F41CAE-61DA-4D12-8A76-EAD7A39818F1}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LearnCpp", "..\LearnCpp\LearnCpp.vcxproj", "{A251D25A-866C-42A4-909F-8A3AB2634AF9}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LearnCpp", "LearnCpp\LearnCpp.vcxproj", "{A251D25A-866C-42A4-909F-8A3AB2634AF9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

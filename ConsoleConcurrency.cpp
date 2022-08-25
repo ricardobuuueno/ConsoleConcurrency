@@ -12,6 +12,7 @@
 #include "threadsafe_stack.h"
 #include "threadsafe_queue.h"
 #include "single_linked_queue.h"
+#include "coroutine.h"
 
 
 template <typename T>
@@ -31,10 +32,12 @@ void hello()
 
 int main()
 {
-    custom_list<int> il{};
-    il.insert(1);
-    il.insert(2);
-    il.insert(3);
+    test_coroutine();
+
+    //custom_list<int> il{};
+    //il.insert(1);
+    //il.insert(2);
+    //il.insert(3);
 
     //hierarchical_mutex m{10000};
 

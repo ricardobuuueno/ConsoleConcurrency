@@ -127,4 +127,14 @@ namespace course
 		return end;
 	}
 
+	template<typename iter>
+	auto find_missing_element(iter begin, iter end)
+	{
+		auto total = sum(begin, end);
+		auto n = end - begin;
+		auto s = (n * (n - 1)) / 2;
+		return s - total;
+	}
+
+
 }

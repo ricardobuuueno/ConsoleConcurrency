@@ -25,6 +25,8 @@ int main()
 
     std::cout << "is_sorted: " << course::is_sorted(a.begin(), a.end()) << "\n\n";
 
+    std::cout << "missing: " << course::find_missing_element(a.begin(), a.end()) << "\n\n";
+
     course::reverse(a.begin(), a.end());
 
     std::cout << "max: " << course::max(a.begin(), a.end()) << '\n';
@@ -68,6 +70,17 @@ int main()
 
 
     //--------------------------------------------
+
+
+    Array<int, 20> d{};
+    for (size_t i{ 0 }; i < d.size(); ++i) {
+        d[i] = static_cast<int>(i) + (i > 9 ? 5 : 4);
+    }
+
+    std::cout << "\n\nis_sorted: " << course::is_sorted(d.begin(), d.end()) << "\n\n";
+    course::print(d.begin(), d.end());
+
+
 
 
 }

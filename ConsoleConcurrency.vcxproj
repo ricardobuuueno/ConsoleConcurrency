@@ -132,8 +132,10 @@
     <ClCompile Include="ConsoleConcurrency.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="coroutine.h" />
     <ClInclude Include="custom_list.h" />
     <ClInclude Include="hierarchical_mutex.h" />
+    <ClInclude Include="matrix.h" />
     <ClInclude Include="quick_sort.h" />
     <ClInclude Include="single_linked_queue.h" />
     <ClInclude Include="strong_types.h" />

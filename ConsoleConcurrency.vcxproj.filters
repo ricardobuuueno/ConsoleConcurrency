@@ -44,5 +44,11 @@
     <ClInclude Include="single_linked_queue.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="matrix.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="coroutine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

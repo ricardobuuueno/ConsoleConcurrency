@@ -134,6 +134,10 @@
   <ItemGroup>
     <ClInclude Include="algorithm.h" />
     <ClInclude Include="array.h" />
+    <ClInclude Include="builder.h" />
+    <ClInclude Include="decorator.h" />
+    <ClInclude Include="observer.h" />
+    <ClInclude Include="visitor.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

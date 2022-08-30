@@ -11,6 +11,11 @@
 
 #include "array.h"
 #include "algorithm.h"
+#include "visitor.h"
+#include "observer.h"
+#include "builder.h"
+#include "decorator.h"
+
 
 using course::Array;
 
@@ -81,7 +86,26 @@ int main()
     course::print(d.begin(), d.end());
 
 
+    //--------------------------------------------
 
+
+    visitor_concrete v;
+    element_concrete_1 el1;
+    el1.accept(v);
+
+    observer_concrete obs;
+    subject sub;
+    sub.register_observer(obs);
+    sub.notify_observers();
+
+    foo f = foo::builder{}.set_prop1(5)
+        .set_prop3(true)
+        .build();
+
+    decfoo_concrete fdec;
+    decfoo_decorator decorated_f{ fdec };
+
+    decbar(decorated_f);
 
 }
 
